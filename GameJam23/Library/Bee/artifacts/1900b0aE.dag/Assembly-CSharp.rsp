@@ -350,6 +350,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CharacterGoalAchieved.cs"
+"Assets/Scripts/Obstacle.cs"
 "Assets/Scripts/ObstacleList.cs"
 "Assets/Scripts/SettingsMenu.cs"
 "Assets/Scripts/SquishCharacter.cs"
