@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SquishCharacter : MonoBehaviour
+public class PlayerOutOfBounds : MonoBehaviour
 {
 
     GameObject levelActions;
@@ -11,11 +11,10 @@ public class SquishCharacter : MonoBehaviour
         levelActions = GameObject.FindGameObjectsWithTag("GameController")[0];
     }
 
-
-    private void OnCollisionEnter(Collision other) {
-        if (other.gameObject.CompareTag("Obstacle")) {
-            print("Squished!");
-            //Squish Animation
+    private void OnTriggerEnter(Collider other) {
+        if (other.gameObject.CompareTag("Character")) {
+            print("Character Out of Bounds! - You Win!");
+            // Out of Bounds Animation Call
             levelActions.GetComponent<LevelActions>().LevelWin();
         }
     }
