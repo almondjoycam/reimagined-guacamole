@@ -4,28 +4,28 @@ using UnityEngine;
 
 public class CharacterMovment : MonoBehaviour
 {
-/**
+
     Vector3 goal;
     
-    [SerializeField] int speedScaler = 10;
+    [SerializeField] float speedScaler = .10;
 
     // Start is called before the first frame update
     void Start()
     {
-        goal = GameObject.FindGameObjectsWithTag("GameController").GetGoalPosition();
+        goal = GameObject.FindGameObjectsWithTag("GameController")[0].GetComponent<GoalPositionSignal>().GetGoalPosition();
     }
 
     // Update is called once per frame
     void Update()
     {
-        double directionX = goal.x - this.x;
-        double directionZ = goal.z - this.z;
-        double scaling = directionX + directionZ;
+        float directionX = goal.x - transform.position.x;
+        float directionZ = goal.z - transform.position.z;
+        float scaling = directionX + directionZ;
 
-        double moveX = directionX / scaling * speedScaler;
-        double moveZ = directionZ / scaling * speedScaler;
+        float moveX = directionX / scaling * speedScaler;
+        float moveZ = directionZ / scaling * speedScaler;
 
         this.GetComponent<Rigidbody>().AddForce(moveX, 0, moveZ, ForceMode.VelocityChange);
     }
-    */
+    
 }

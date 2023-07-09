@@ -5,11 +5,12 @@ using UnityEngine;
 public class GoalPositionSignal : MonoBehaviour
 {
 
-/*
+
 
     public Vector3 GetGoalPosition() {
-        Vector3 goal;
-        goal.Set(this.x, this.y, this.z);
+        Vector3 goal = new Vector3();
+        goal.Set(transform.position.x, transform.position.y, transform.position.z);
+        return goal;
     }
     
 
@@ -24,5 +25,5 @@ public class GoalPositionSignal : MonoBehaviour
     {
         
     }
-    */
+    
 }
