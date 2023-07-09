@@ -1,9 +1,0 @@
-sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/SquishyTest.unity
-=======
-- path: Assets/Scenes/Remove the Latch!.unity
->>>>>>> fa30a020aa3864bc6f4967230b4f38798f46afeb
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
