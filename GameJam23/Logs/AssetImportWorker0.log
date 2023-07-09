@@ -188,7 +188,20 @@ Received Import Request.
 Start importing Assets/Prefabs/UI/SettingsMenu.prefab using Guid(a9781dbf87bc3160780e07d8b6100e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1129efb1660f259ed2fccff540c27c98') in 0.172313 seconds 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 0.000060 seconds.
   path: Assets/Prefabs/UI/StartScreen.prefab
   artifactKey: Guid(716f2f81a37181dd69235627e7d44e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/UI/StartScreen.prefab using Guid(716f2f81a37181dd69235627e7d44e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85848f54751e316b5594381eb2b6bf5') in 0.047444 seconds 
+=======
+  Time since last request: 28.899530 seconds.
+  path: Assets/Input/InputSystem.inputsettings.asset
+  artifactKey: Guid(60715433ee4886b9eb7b34a0ca918db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Input/InputSystem.inputsettings.asset using Guid(60715433ee4886b9eb7b34a0ca918db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abde715cca1464d5413f1e2fcab19b6') in 0.002821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 885.781035 seconds.
+  path: Assets/Prefabs/UI/SettingsMenu.prefab
+  artifactKey: Guid(a9781dbf87bc3160780e07d8b6100e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/SettingsMenu.prefab using Guid(a9781dbf87bc3160780e07d8b6100e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1129efb1660f259ed2fccff540c27c98') in 0.094472 seconds 
+>>>>>>> Stashed changes
