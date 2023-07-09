@@ -25,6 +25,7 @@
 - Input system (for kb, mouse, gamepad, touch? compatibility)
 - Character animations
 - Adding forces in directions (rigidbody)
+- Tags for what we can move
 
 ## Levels
 
