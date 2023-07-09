@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 using TMPro;
 
 public class SettingsMenu : MonoBehaviour
@@ -26,7 +27,15 @@ public class SettingsMenu : MonoBehaviour
     List<string> resOptions = new List<string>();
     bool isFullScreen;
 
+    GameControls controls;
     EventSystem eventSystem;
+
+    // set up controls messages in Awake
+    void Awake()
+    {
+        controls = new GameControls();
+        controls.UI.Cancel.performed += ctx => Back();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -96,5 +105,11 @@ public class SettingsMenu : MonoBehaviour
         Screen.SetResolution(resolutions[resDropdown.value].width,
                              resolutions[resDropdown.value].height,
                              isFullScreen);
+    }
+
+    // Back Button
+    public void Back()
+    {
+        gameObject.SetActive(false);
     }
 }

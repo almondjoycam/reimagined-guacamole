@@ -345,6 +345,7 @@
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/com.unity.cinemachine.editor.ref.dll"
+"Assets/Input/GameControls.cs"
 "Assets/Scripts/CharacterGoalAchieved.cs"
 "Assets/Scripts/Obstacle.cs"
 "Assets/Scripts/ObstacleList.cs"
