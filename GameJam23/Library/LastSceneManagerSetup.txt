@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/ObstacleTest.unity
+- path: Assets/Scenes/SquishyTest.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

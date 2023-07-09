@@ -346,6 +346,8 @@
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/com.unity.cinemachine.editor.ref.dll"
 "Assets/Scripts/SettingsMenu.cs"
+"Assets/Scripts/SquishPlayer.cs"
+"Assets/Scripts/StartMenu.cs"
 -langversion:9.0
 
 /deterministic
